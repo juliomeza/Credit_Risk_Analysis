@@ -12,6 +12,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ⋅⋅⋅This model only predicts 'High Risk' credits with a precision of 1% and a recall of 72%. Combining both numbers, this is not a good model.
 
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/1-NaiveRandomOversampling.png'>
 
 - Oversampling SMOTE
