@@ -5,7 +5,7 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 
 # Results
 
-1. NAIVE RANDOM OVERSAMPLING
+**1. Naive Random Oversampling
    - The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
    - Since we are only focusing in the 'High Risk' predictions, this is not a good model with a precision of 1% and a recall of 72%.
 
