@@ -24,6 +24,20 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/3-UndersamplingClusterCentroids.png'>
 
 4. Combination (Over and Under) Sampling SMOTEENN
+   - The SMOTEENN model has a accuracy score of 67%. Still a low number, specially if we combine this number with the precision and recall scores.
+   - This model has a low precision (1%) when predicting 'High Risk' credits, and a not too bad recall recall (72%) score. Combining the precision and recall score, this is not a good model neither.
+
+<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/4-SMOTEENN.png'>
+
+5. Balanced Random Forest Classifier
+   - The Blalanced Random Forest model has a high accuracy score. 79% of the time predicts correctly.
+   - The precision score has increased to 3%. Even though is a low number, it is 3 times better than all previous models so far.
+   - The recall score if not too bad. 70% of the time predicts correctly.
+
+<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/5-BalancedRandomForestClassifier.png'>
+
+6. Easy Ensemble AdaBoost Classifier
+   - 
 
 
 
@@ -36,12 +50,6 @@ PRECISION: total of 50 people were predicted to have cancer. Of the 50, 30 peopl
 RECALL(Sensitivity): is a measure of how many people who actually have cancer were correctly diagnosed.
 
 
-<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/4-SMOTEENN.png'>
-
-- Balanced Random Forest Classifier
-<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/5-BalancedRandomForestClassifier.png'>
-
-- Easy Ensemble AdaBoost Classifier
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/6-EasyEnsembleAdaBoostClassifier.png'>
 
 
