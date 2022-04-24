@@ -4,7 +4,6 @@
 Predict credic card risk using the credit card credit dataset from LendingClub.
 
 # Results
-
 1. Naive Random Oversampling
    - The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
    - Since we are only focusing in the 'High Risk' predictions, this is not a good model with a precision of 1% and a recall of 72%.
@@ -37,24 +36,13 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/5-BalancedRandomForestClassifier.png'>
 
 6. Easy Ensemble AdaBoost Classifier
-   - cvbcvb
-   - bcbvbc
-
-
-
-balanced accuracy scores
-precision
-recall
-
-PRECISION: total of 50 people were predicted to have cancer. Of the 50, 30 people actually had cancer. The precision is therefore 30/50, or 0.6.
-
-RECALL(Sensitivity): is a measure of how many people who actually have cancer were correctly diagnosed.
-
+   - The AdaBoost model has a accuracy score of 93%, which is really good.
+   - The precision score has increased to 9%, the best model out of the 6.
+   - The recall score if also high, with a 92% correct predicitons.
 
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/6-EasyEnsembleAdaBoostClassifier.png'>
 
-
 # Summary
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
+- Out of the 6 models, the best model is the 'AddaBoost Classifier', with a accuracy score of 93%, a precision of 9% and a recall of 92%.
+- Even though this is the best model out of the six, it fails on predicting 'High Risk' credits, with a precision of only 9%. Since we are focusing in High Risk credits only, this is not a good model neither. We need to try other different models where the 'High Risk' precision is above 70% at least.
 
