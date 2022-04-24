@@ -14,6 +14,10 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 - Combination (Over and Under) Sampling SMOTEENN
 
+- Balanced Random Forest Classifier
+
+- Easy Ensemble AdaBoost Classifier
+
 
 
 
