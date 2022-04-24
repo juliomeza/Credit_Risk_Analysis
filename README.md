@@ -5,13 +5,19 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 
 # Results
 
-**1. Naive Random Oversampling
+1. Naive Random Oversampling
    - The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
    - Since we are only focusing in the 'High Risk' predictions, this is not a good model with a precision of 1% and a recall of 72%.
 
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/1-NaiveRandomOversampling.png'>
 
-- Oversampling SMOTE
+2. Oversampling SMOTE
+   - This model has a low accuracy score as well (66%)
+   - It also has a low precision and recall scores (1% and 63%)
+
+<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/2-OversamplingSMOTE.png'>
+
+3. Undersampling Cluster Centroids
 
 
 balanced accuracy scores
@@ -23,10 +29,6 @@ PRECISION: total of 50 people were predicted to have cancer. Of the 50, 30 peopl
 RECALL(Sensitivity): is a measure of how many people who actually have cancer were correctly diagnosed.
 
 
-
-<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/2-OversamplingSMOTE.png'>
-
-- Undersampling Cluster Centroids
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/3-UndersamplingClusterCentroids.png'>
 
 - Combination (Over and Under) Sampling SMOTEENN
