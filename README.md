@@ -12,7 +12,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 - Undersampling Cluster Centroids
 
--
+- Combination (Over and Under) Sampling SMOTEENN
+
+
 
 
 
