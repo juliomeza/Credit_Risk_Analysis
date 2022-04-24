@@ -8,9 +8,9 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 1. NAIVE RANDOM OVERSAMPLING
 
-⋅⋅⋅The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
+⋅⋅⋅ The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
 
-⋅⋅⋅This model only predicts 'High Risk' credits with a precision of 1% and a recall of 72%. Combining both numbers, this is not a good model.
+⋅⋅⋅ This model only predicts 'High Risk' credits with a precision of 1% and a recall of 72%. Combining both numbers, this is not a good model.
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 
