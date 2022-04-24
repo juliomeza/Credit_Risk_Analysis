@@ -7,6 +7,7 @@ Explain the purpose of this analysis.
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 - Naive Random Oversampling
+<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/1-NaiveRandomOversampling.png'>
 
 - Oversampling SMOTE
 
