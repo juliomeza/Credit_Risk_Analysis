@@ -37,7 +37,8 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/5-BalancedRandomForestClassifier.png'>
 
 6. Easy Ensemble AdaBoost Classifier
-   - 
+   - cvbcvb
+   - bcbvbc
 
 
 
