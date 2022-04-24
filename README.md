@@ -18,6 +18,13 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/2-OversamplingSMOTE.png'>
 
 3. Undersampling Cluster Centroids
+   - The Cluster Centroids accuracy score is the lowest so far, with only 54% accuracy.
+   - The precision (1%) and recall (69%) scores remains low.
+
+<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/3-UndersamplingClusterCentroids.png'>
+
+4. Combination (Over and Under) Sampling SMOTEENN
+
 
 
 balanced accuracy scores
@@ -29,9 +36,6 @@ PRECISION: total of 50 people were predicted to have cancer. Of the 50, 30 peopl
 RECALL(Sensitivity): is a measure of how many people who actually have cancer were correctly diagnosed.
 
 
-<img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/3-UndersamplingClusterCentroids.png'>
-
-- Combination (Over and Under) Sampling SMOTEENN
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/4-SMOTEENN.png'>
 
 - Balanced Random Forest Classifier
