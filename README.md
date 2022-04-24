@@ -6,7 +6,7 @@ Predict credic card risk using the credit card credit dataset from LendingClub.
 # Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-1. NAIVE RANDOM OVERSAMPLING
+1. **NAIVE RANDOM OVERSAMPLING
 
 ⋅⋅⋅ The classifier is correct only 65% of the time, which is not a good prediction, but is not the worst neither.
 
