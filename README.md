@@ -45,4 +45,3 @@ Predict credit card risk using the credit card credit dataset from LendingClub.
 # Summary
 - Out of the 6 models, the best model is the 'AddaBoost Classifier', with an accuracy score of 93%, a precision of 9% and a recall of 92%.
 - Even though this is the best model out of the six, it fails on predicting 'High Risk' credits, with a precision of only 9%. Since we are focusing on High-Risk credits only, this is not a good model neither. We need to try other different models where the 'High Risk' precision is above 70% at least.
-
