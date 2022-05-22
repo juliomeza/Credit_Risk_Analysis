@@ -1,9 +1,9 @@
 # Credit Risk Analysis
 
-# Overview
+## Overview
 Predict credit card risk using the credit card credit dataset from LendingClub.
 
-# Results
+## Results
 1. Naive Random Oversampling
    - The classifier is correct only 65% of the time, which is not a good prediction, but is not the bad either.
    - Since we are only focusing in the 'High Risk' predictions, this is not a good model with a precision of 1% and a recall of 72%.
@@ -42,6 +42,6 @@ Predict credit card risk using the credit card credit dataset from LendingClub.
 
 <img src='https://github.com/juliomeza/Credit_Risk_Analysis/blob/main/screenshots/6-EasyEnsembleAdaBoostClassifier.png'>
 
-# Summary
+## Summary
 - Out of the 6 models, the best model is the 'AddaBoost Classifier', with an accuracy score of 93%, a precision of 9% and a recall of 92%.
 - Even though this is the best model out of the six, it fails on predicting 'High Risk' credits, with a precision of only 9%. Since we are focusing on High-Risk credits only, this is not a good model neither. We need to try other different models where the 'High Risk' precision is above 70% at least.
